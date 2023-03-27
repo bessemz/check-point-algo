@@ -1,0 +1,15 @@
+Algorithm sum_of_distinct_elements
+1. Input set1 and set2, two arrays of elements.
+2. Initialize an empty array called distinct_elements.
+3. For each element e1 in set1:
+   a. If e1 is not in distinct_elements, add e1 to distinct_elements.
+4. End For
+5. For each element e2 in set2:
+   a. If e2 is not in distinct_elements, add e2 to distinct_elements.
+6. End For
+7. Initialize a variable called sum to zero.
+8. For each element e in distinct_elements:
+   a. Add e to sum.
+9. End For
+10. Output sum.
+End Algorithm
