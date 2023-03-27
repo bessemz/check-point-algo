@@ -1,0 +1,16 @@
+Function dot_product(v1, v2: list of IR): IR
+1. Set ps to zero.
+2. For i = 1 to length(v1):
+   a. Set ps to ps + v1[i]*v2[i].
+3. End For
+4. Return ps.
+End Function
+
+Algorithm determine_orthogonality_using_function
+1. For i = 1 to n:
+   a. Input v1 and v2, two vectors of IR.
+   b. Set ps to dot_product(v1, v2).
+   c. If ps = 0, output "The vectors are orthogonal."
+      Else, output "The vectors are not orthogonal."
+2. End For
+End Algorithm
